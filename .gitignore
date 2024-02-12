@@ -35,3 +35,6 @@ out/
 
 ### VS Code ###
 .vscode/
+
+### generated의 Q클래스 배제 ###
+src/main/generated/
