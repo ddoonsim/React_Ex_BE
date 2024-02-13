@@ -18,7 +18,7 @@ spring:
         # 콘솔 창에 출력되는 쿼리를 가독성 좋게 포매팅
         format_sql: true
         use_sql_comments: true
-        dialect: org.hibernate.dialect.OracleDialect
+        default_batch_fetch_size: 1000
     hibernate:
       ddlAuto: create
 
